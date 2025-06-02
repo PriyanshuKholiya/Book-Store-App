@@ -8,6 +8,9 @@ It uses MongoDB Atlas to store books, users, carts, and orders.
 - Register and log in as a user
 - Add books to your cart and checkout
 - Admin dashboard to manage books and view stats
+- Admin credentials to access admin dashboard 
+  email: admin@example.com
+  password: admin123
 
 **How to run locally:**
 1. Clone this repo.
