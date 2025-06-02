@@ -20,7 +20,7 @@ const AdminDashboard = () => {
 
   // Fetch books and stats
   const fetchBooks = () => {
-    fetch('http://localhost:5000/api/books')
+    fetch(`${import.meta.env.VITE_API_URL}/api/books`)
       .then(res => res.json())
       .then(data => setBooks(data));
   };
@@ -28,11 +28,11 @@ const AdminDashboard = () => {
   useEffect(() => {
     if (isAdmin) {
       fetchBooks();
-      fetch('http://localhost:5000/api/users/count')
+      fetch(`${import.meta.env.VITE_API_URL}/api/users/count`)
         .then(res => res.json())
         .then(data => setUsersCount(data.count || 0))
         .catch(() => setUsersCount(0));
-      fetch('http://localhost:5000/api/orders')
+      fetch(`${import.meta.env.VITE_API_URL}/api/orders`)
         .then(res => res.json())
         .then(data => {
           setSales(data.reduce((sum, order) => sum + (order.total || 0), 0));
@@ -54,7 +54,7 @@ const AdminDashboard = () => {
       setError('Title, author, and price are required.');
       return;
     }
-    fetch('http://localhost:5000/api/books', {
+    fetch(`${import.meta.env.VITE_API_URL}/api/books`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ...newBook, price: parseFloat(newBook.price), rating: parseInt(newBook.rating) }),
@@ -76,7 +76,7 @@ const AdminDashboard = () => {
     setError('');
     try {
       const bookObj = JSON.parse(jsonInput);
-      fetch('http://localhost:5000/api/books', {
+      fetch(`${import.meta.env.VITE_API_URL}/api/books`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(bookObj),
@@ -97,7 +97,7 @@ const AdminDashboard = () => {
 
   // Remove book
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/api/books/${id}`, { method: 'DELETE' })
+    fetch(`${import.meta.env.VITE_API_URL}/api/books/${id}`, { method: 'DELETE' })
       .then(() => fetchBooks());
   };
 

@@ -8,7 +8,7 @@ const Cart = () => {
   // Fetch cart from backend
   useEffect(() => {
     if (user && user._id) {
-      fetch(`http://localhost:5000/api/users/${user._id}/cart`)
+      fetch(`${import.meta.env.VITE_API_URL}/api/users/${user._id}/cart`)
         .then(res => res.json())
         .then(cart => {
           if (Array.isArray(cart)) {
@@ -37,7 +37,7 @@ const Cart = () => {
         book: item._id || item.id,
         quantity: item.quantity
       }));
-      fetch(`http://localhost:5000/api/users/${user._id}/cart`, {
+      fetch(`${import.meta.env.VITE_API_URL}/api/users/${user._id}/cart`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ cart: backendCart }),

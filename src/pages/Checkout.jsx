@@ -8,7 +8,7 @@ const Checkout = () => {
 
   useEffect(() => {
     if (user && user._id) {
-      fetch(`http://localhost:5000/api/users/${user._id}/cart`)
+      fetch(`${import.meta.env.VITE_API_URL}/api/users/${user._id}/cart`)
         .then(res => res.json())
         .then(cart => {
           if (Array.isArray(cart)) {

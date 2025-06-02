@@ -10,7 +10,7 @@ const AllBooks = () => {
   const user = JSON.parse(localStorage.getItem('user') || 'null');
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/books')
+    fetch(`${import.meta.env.VITE_API_URL}/api/books`)
       .then(res => {
         if (!res.ok) throw new Error('Failed to fetch books');
         return res.json();
@@ -31,7 +31,7 @@ const AllBooks = () => {
       return;
     }
     // Fetch user cart, add or update book, then PUT to backend
-    fetch(`http://localhost:5000/api/users/${user._id}/cart`)
+    fetch(`${import.meta.env.VITE_API_URL}/api/users/${user._id}/cart`)
       .then(res => res.json())
       .then(cart => {
         let updatedCart = Array.isArray(cart) ? cart.slice() : [];
@@ -41,7 +41,7 @@ const AllBooks = () => {
         } else {
           updatedCart.push({ book: book._id || book.id, quantity: 1 });
         }
-        return fetch(`http://localhost:5000/api/users/${user._id}/cart`, {
+        return fetch(`${import.meta.env.VITE_API_URL}/api/users/${user._id}/cart`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ cart: updatedCart }),
