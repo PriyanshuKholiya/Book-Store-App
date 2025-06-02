@@ -1,0 +1,32 @@
+/* Container for the rating stars */
+.rating {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Default star styling */
+  .star {
+    font-size: 1.5rem;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  /* Filled star styling */
+  .star.filled {
+    color: #f5c518; /* Gold color for filled stars */
+  }
+  
+  /* Hover effect for stars */
+  .star:hover,
+  .star:hover ~ .star {
+    color: #f5c518;
+  }
+  
+  /* Accessibility focus styling */
+  .star:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+  }

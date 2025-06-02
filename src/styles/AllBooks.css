@@ -1,0 +1,55 @@
+/* Container for the All Books page */
+.all-books {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Title styling */
+  .all-books h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: var(--text-color);
+  }
+  
+  /* Grid layout for books */
+  .book-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 books per row */
+    gap: 2rem;
+    justify-items: center;
+    align-items: stretch;
+    margin-bottom: 2rem;
+  }
+  
+  @media (max-width: 1200px) {
+    .book-grid {
+      grid-template-columns: repeat(4, 1fr); /* 4 books per row on medium screens */
+    }
+  }
+  @media (max-width: 900px) {
+    .book-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 books per row on small screens */
+    }
+  }
+  @media (max-width: 600px) {
+    .book-grid {
+      grid-template-columns: 1fr; /* 1 book per row on mobile */
+    }
+  }
+  
+  /* Individual book card styling */
+  .book-card {
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }

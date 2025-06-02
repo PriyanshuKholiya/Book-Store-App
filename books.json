@@ -1,0 +1,242 @@
+[
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "price": 10.99,
+    "description": "A classic novel set in the Jazz Age, exploring themes of wealth, love, and the American Dream.",
+    "image": "https://covers.openlibrary.org/b/id/10587741-L.jpg",
+    "rating": 4
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "price": 12.99,
+    "description": "A novel about racial injustice and moral growth in the Deep South.",
+    "image": "https://covers.openlibrary.org/b/id/8228691-L.jpg",
+    "rating": 5
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "price": 14.99,
+    "description": "A dystopian novel about totalitarianism and surveillance.",
+    "image": "https://covers.openlibrary.org/b/id/7222246-L.jpg",
+    "rating": 4
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "price": 9.99,
+    "description": "A romantic novel about manners, marriage, and societal expectations.",
+    "image": "https://covers.openlibrary.org/b/id/8081574-L.jpg",
+    "rating": 5
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "price": 11.99,
+    "description": "A story about teenage rebellion and self-discovery.",
+    "image": "https://covers.openlibrary.org/b/id/8231994-L.jpg",
+    "rating": 3
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "price": 13.99,
+    "description": "A fantasy adventure about a hobbit’s journey to reclaim a lost treasure.",
+    "image": "https://covers.openlibrary.org/b/id/6979861-L.jpg",
+    "rating": 5
+  },
+  {
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "price": 15.99,
+    "description": "A tale of obsession and revenge between a sailor and a great white whale.",
+    "image": "https://covers.openlibrary.org/b/id/7222111-L.jpg",
+    "rating": 2
+  },
+  {
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "price": 19.99,
+    "description": "An epic novel about Russian society during the Napoleonic Wars.",
+    "image": "https://covers.openlibrary.org/b/id/7222243-L.jpg",
+    "rating": 4
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "price": 14.99,
+    "description": "A psychological exploration of guilt and redemption.",
+    "image": "https://covers.openlibrary.org/b/id/8231853-L.jpg",
+    "rating": 5
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "price": 10.99,
+    "description": "A philosophical tale about following your dreams.",
+    "image": "https://covers.openlibrary.org/b/id/8277264-L.jpg",
+    "rating": 4
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "price": 25.99,
+    "description": "An epic fantasy about the battle between good and evil.",
+    "image": "https://covers.openlibrary.org/b/id/8059256-L.jpg",
+    "rating": 5
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "price": 20.99,
+    "description": "The magical beginning of Harry Potter’s journey.",
+    "image": "https://covers.openlibrary.org/b/id/7984916-L.jpg",
+    "rating": 5
+  },
+  {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "price": 12.99,
+    "description": "A story of friendship, betrayal, and redemption.",
+    "image": "https://covers.openlibrary.org/b/id/8155414-L.jpg",
+    "rating": 4
+  },
+  {
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "price": 11.99,
+    "description": "A tale of love and loss during World War II.",
+    "image": "https://covers.openlibrary.org/b/id/8225631-L.jpg",
+    "rating": 5
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "price": 13.99,
+    "description": "A dystopian novel about a technologically advanced society.",
+    "image": "https://covers.openlibrary.org/b/id/8770936-L.jpg",
+    "rating": 3
+  },
+  {
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "price": 14.99,
+    "description": "A post-apocalyptic journey of survival and hope.",
+    "image": "https://covers.openlibrary.org/b/id/8219256-L.jpg",
+    "rating": 4
+  },
+  {
+    "title": "The Shining",
+    "author": "Stephen King",
+    "price": 16.99,
+    "description": "A chilling tale of isolation and madness.",
+    "image": "https://covers.openlibrary.org/b/id/8235081-L.jpg",
+    "rating": 5
+  },
+  {
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "price": 10.99,
+    "description": "The original vampire novel that started it all.",
+    "image": "https://covers.openlibrary.org/b/id/6979251-L.jpg",
+    "rating": 4
+  },
+  {
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "price": 9.99,
+    "description": "A tale of science, ambition, and unintended consequences.",
+    "image": "https://covers.openlibrary.org/b/id/8091016-L.jpg",
+    "rating": 3
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "price": 11.99,
+    "description": "A story about vanity, morality, and the cost of eternal youth.",
+    "image": "https://covers.openlibrary.org/b/id/7222161-L.jpg",
+    "rating": 4
+  },
+  {
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "price": 12.99,
+    "description": "A dystopian novel about survival and rebellion in a totalitarian society.",
+    "image": "https://covers.openlibrary.org/b/id/7302167-L.jpg",
+    "rating": 5
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "price": 18.99,
+    "description": "A science fiction epic about politics, religion, and ecology on a desert planet.",
+    "image": "https://covers.openlibrary.org/b/id/8107899-L.jpg",
+    "rating": 5
+  },
+  {
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "price": 10.99,
+    "description": "A touching story about love and loss between two teenagers with cancer.",
+    "image": "https://covers.openlibrary.org/b/id/7284465-L.jpg",
+    "rating": 4
+  },
+  {
+    "title": "The Chronicles of Narnia",
+    "author": "C.S. Lewis",
+    "price": 22.99,
+    "description": "A fantasy series about children discovering a magical world through a wardrobe.",
+    "image": "https://covers.openlibrary.org/b/id/8228697-L.jpg",
+    "rating": 5
+  },
+  {
+    "title": "The Maze Runner",
+    "author": "James Dashner",
+    "price": 11.99,
+    "description": "A dystopian novel about teenagers trapped in a deadly maze.",
+    "image": "https://covers.openlibrary.org/b/id/7261736-L.jpg",
+    "rating": 3
+  },
+  {
+    "title": "Percy Jackson & The Olympians",
+    "author": "Rick Riordan",
+    "price": 13.99,
+    "description": "A modern fantasy series about a boy discovering he is a demigod.",
+    "image": "https://covers.openlibrary.org/b/id/8184816-L.jpg",
+    "rating": 4
+  },
+  {
+    "title": "The Giver",
+    "author": "Lois Lowry",
+    "price": 9.99,
+    "description": "A dystopian novel about a boy discovering the truth about his seemingly perfect society.",
+    "image": "https://covers.openlibrary.org/b/id/8207894-L.jpg",
+    "rating": 3
+  },
+  {
+    "title": "The Outsiders",
+    "author": "S.E. Hinton",
+    "price": 8.99,
+    "description": "A coming-of-age story about friendship and class struggles.",
+    "image": "https://covers.openlibrary.org/b/id/8231941-L.jpg",
+    "rating": 4
+  },
+  {
+    "title": "The Secret Garden",
+    "author": "Frances Hodgson Burnett",
+    "price": 7.99,
+    "description": "A story about a young girl discovering a hidden garden and healing through nature.",
+    "image": "https://covers.openlibrary.org/b/id/7222251-L.jpg",
+    "rating": 3
+  },
+  {
+    "title": "Anne of Green Gables",
+    "author": "L.M. Montgomery",
+    "price": 6.99,
+    "description": "A heartwarming tale about an imaginative orphan finding a home.",
+    "image": "https://covers.openlibrary.org/b/id/8231996-L.jpg",
+    "rating": 4
+  }
+]

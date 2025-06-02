@@ -1,0 +1,17 @@
+[{
+  "title": "Atomic Habits",
+  "author": "James Clear",
+  "price": 15.99,
+  "description": "An easy & proven way to build good habits and break bad ones.",
+  "image": "https://covers.openlibrary.org/b/isbn/0735211299-L.jpg",
+  "rating": 5
+},
+{
+  "title": "The Power of Habit",
+  "author": "Charles Duhigg",
+  "price": 12.99,
+  "description": "Why We Do What We Do in Life and Business. A groundbreaking exploration of how habits shape our lives.",
+  "image": "https://covers.openlibrary.org/b/isbn/081298160X-L.jpg",
+  "rating": 4.5
+}
+]
