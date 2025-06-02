@@ -1,12 +1,18 @@
-# React + Vite
+# Book Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple online book store built with React for the frontend and Node.js/Express for the backend.  
+It uses MongoDB Atlas to store books, users, carts, and orders.
 
-Currently, two official plugins are available:
+**Features:**
+- Browse and search books
+- Register and log in as a user
+- Add books to your cart and checkout
+- Admin dashboard to manage books and view stats
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**How to run locally:**
+1. Clone this repo.
+2. Run the backend (`cd server && npm install && node index.js`).
+3. Run the frontend (`npm install && npm run dev`).
+4. Make sure you have a `.env` file in `/server` with your MongoDB connection string.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Enjoy your book store!
