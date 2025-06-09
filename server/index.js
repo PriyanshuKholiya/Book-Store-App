@@ -11,6 +11,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Health-check route for uptime monitors
+app.get('/ping', (req, res) => {
+  res.status(200).send('pong');
+});
+
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => {
     console.log('MongoDB connected');
